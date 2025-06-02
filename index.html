@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil - Red Social</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>MiRedSocial</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Mi Perfil</a>
+      <a href="#">Buscar Conexiones</a>
+      <a href="#">Notificaciones</a>
+      <button class="signout">Salir</button>
+    </nav>
+  </div>
+
+  <div class="container">
+
+    <div class="profile">
+      <div class="card perfil">
+        <div class="banner"></div>
+        <div class="avatar">
+          <img src="https://64.media.tumblr.com/caceee958c829a0392e3f1b509ef32c4/6d7c13e644059103-5c/s640x960/64c6c499694bcb2ab5113617d6d8d9af75d40faa.jpg" alt="Foto de perfil" />
+        </div>
+        <h2>Josué Ramirez</h2>
+        <p class="location"><i class="fas fa-map-marker-alt"></i> Luque, Paraguay</p>
+        <p class="title">Desarrollador Web | Fan de la tecnología | Amante de los viajes</p>
+        <div class="acciones">
+          <button>Editar perfil</button>
+          <i class="fas fa-cog tuerca"></i>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div class="card small">
+          <div class="header">Solicitudes de Amistad</div>
+          <div class="request">
+            <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="Perfil 1">
+            <span>Carlos García</span>
+            <div class="actions">
+              <button class="accept">✔</button>
+              <button class="deny">✖</button>
+            </div>
+          </div>
+          <div class="request">
+            <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="Perfil 2">
+            <span>Lucía Torres</span>
+            <div class="actions">
+              <button class="accept">✔</button>
+              <button class="deny">✖</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card small">
+          <div class="header">Mis Conexiones</div>
+          <ul class="conexiones">
+            <li><img src="https://randomuser.me/api/portraits/men/45.jpg"> Javier Morales</li>
+            <li><img src="https://randomuser.me/api/portraits/women/58.jpg"> Ana García</li>
+            <li><img src="https://randomuser.me/api/portraits/men/53.jpg"> Ricardo Fernández</li>
+            <li><img src="https://randomuser.me/api/portraits/women/77.jpg"> Marta Sánchez</li>
+            <li><img src="https://randomuser.me/api/portraits/women/67.jpg" alt="Perfil Dharma Gonzalez"> Dharma Gonzalez</li>
+          </ul>
+          <button id="ver-mas" disabled>Ver más</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card education">
+      <h3>Certificación Profesional</h3>
+      <p><strong>Bootcamp Full Stack - Universidad de Tecnología</strong></p>
+      <p>Mar 2021 - Jun 2021</p>
+      <p>Certificación en Desarrollo Web, JavaScript, React, Node.js, y Bases de Datos</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
